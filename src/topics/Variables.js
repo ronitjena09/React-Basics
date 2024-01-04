@@ -10,8 +10,10 @@ const Variables = () => {
  let [recentDate, setRecentDate] = useState(new Date()); // for date
  let [isActive, setIsActive] = useState(); //for boolean type
 
-
-
+ //derived data type
+ let [empObject, setEmpObject] = useState({empId:0, empName:'Ronit', empCity:'Berhampur',}); //object
+ let [cityType, setCityType] = useState(['Berhampur','Bhubaneswar', 'Cuttack', 'Kendrapada']); //String array
+ let [rollNo, setRollNo] = useState([10, 20, 30, 40, 50]); //Integer array
 
 
 
