@@ -36,7 +36,7 @@ const eventAlert = (event) => {   // function for calling a specific value that 
       </div>
       <div className='row'>
         <div className='col-3'>
-            <select onChange={ (event) => {eventAlert(event)}}className='form-select'> {/*for an event to be created in alert box */}
+            <select onChange={ (event) => {eventAlert(event)}}className='form-select'> {/* to send data*/}
                 <option value=''>Select City</option>
                 <option value='Berhampur'>Berhampur</option>
                 <option value='Bhubaneswar'>Bhubaneswar</option>
